@@ -1,7 +1,28 @@
 aid: hormona
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hormona.png
 name: Hormona
-description: Hormona is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hormona is a women's hormonal-health company founded in 2020 by Karolina
+  Lofqvist and Jasmine Tagesson, with offices in London, UK and Stockholm,
+  Sweden. It builds a hormone-tracking mobile app together with an at-home
+  hormone monitor and urine-test kits that users scan with a phone camera to get
+  real-time, quantitative hormone results without a lab visit. The app uses AI to
+  learn each user's patterns and predict when PMS or period symptoms are likely,
+  offering 30+ tools to manage hormonal symptoms and supporting women from their
+  first period through perimenopause and menopause. Hormona is distributed on the
+  App Store and Google Play and is used by women in 185+ countries. It is a
+  direct-to-consumer product with no public developer API program.
 url: https://raw.githubusercontent.com/api-evangelist/hormona/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Femtech
+- Women's Health
+- Hormones
+- Wellness
+- Consumer Health
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://hormona.io/
+  url: https://www.hormona.io/
+- type: Blog
+  url: https://www.hormona.io/blog/
+- type: Support
+  url: https://www.hormona.io/pages/faq
+- type: PrivacyPolicy
+  url: https://www.hormona.io/policies/privacy-policy
+- type: TermsOfService
+  url: https://www.hormona.io/policies/terms-of-service
+- type: Pricing
+  url: https://www.hormona.io/products/hormona-cycle-app
+- type: Login
+  url: https://www.hormona.io/account
+- type: AppStore
+  url: https://apps.apple.com/us/app/hormona-period-hormones/id1589458330
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.hormona.hormonaapp
+- type: WellKnown
+  url: well-known/hormona-well-known.yml
+- type: DomainSecurity
+  url: security/hormona-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

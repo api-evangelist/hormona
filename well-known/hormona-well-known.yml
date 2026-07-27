@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.hormona.io/.well-known/*
+host: https://www.hormona.io
+note: >-
+  hormona.io is served on Shopify; the openid-configuration and
+  oauth-authorization-server documents are Shopify's storefront customer-account
+  auth (issuer https://shopify.com/authentication/99026829643), served
+  platform-side at the Hormona host. Captured verbatim as the discovery surface
+  present at the domain. No first-party Hormona API auth server is published.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: hormona-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: hormona-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
