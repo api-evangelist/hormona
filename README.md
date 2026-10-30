@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hormona is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Hormona is a women's hormonal-health company founded in 2020 by Karolina Lofqvist and Jasmine Tagesson, with offices in London, UK and Stockholm, Sweden. It builds a hormone-tracking mobile app together with an at-home hormone monitor and urine-test kits that users scan with a phone camera to get real-time, quantitative hormone results without a lab visit. The app uses AI to learn each user's patterns and predict when PMS or period symptoms are likely, offering 30+ tools to manage hormonal symptoms and supporting women from their first period through perimenopause and menopause. Hormona is distributed on the App Store and Google Play and is used by women in 185+ countries. It is a direct-to-consumer product with no public developer API program.
 
-Backed by: techstars — https://hormona.io/
+**Areas:** Company · Health · Femtech · Women's Health · Hormones · Wellness · Consumer Health · Mobile App · Sweden
+
+## Hormona on APIs.io
+
+Everything profiled for Hormona is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hormona/](https://apis.io/providers/hormona/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hormona Domain Security](https://apis.io/security/hormona/hormona-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hormona.io/)
+- [Pricing](https://www.hormona.io/products/hormona-cycle-app)
+- [Support](https://www.hormona.io/pages/faq)
+- [Blog](https://www.hormona.io/blog/)
+- [Terms of service](https://www.hormona.io/policies/terms-of-service)
+- [Privacy policy](https://www.hormona.io/policies/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 14.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hormona/](https://apis.io/providers/hormona/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hormona: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hormona/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
